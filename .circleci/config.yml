@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/formules
+    working_directory: ~/koa-router-map
     docker:
       - image: circleci/node:latest
     steps:
