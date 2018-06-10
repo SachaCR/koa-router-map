@@ -32,10 +32,10 @@ It should display :
 
 ## Options
 
-- Color mode : `GET http://host.com/routes/map?color=true`
+- Color mode in terminal only : `curl http://localhost:3000/routes/map?color=true`
 ![alt text](img/color-mode.png)
 
-- Raw mode : `GET http://host.com/routes/map?raw=true`
+- Raw mode : `GET http://localhost:3000/routes/map?raw=true`
 ![alt text](img/raw-mode.png)
 
 ## Tests
